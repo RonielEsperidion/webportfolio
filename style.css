@@ -1,0 +1,43 @@
+/* css */
+
+h1,h2,h3,h4,h5,span,p{
+  font-family: 'Share Tech', sans-serif;
+}
+.hero-header {
+    background-image: url("images/banner.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 50vh;
+  }
+  @media screen and (max-width: 800px) {
+    .hero-header {
+      height: 100%;
+    }
+    
+  }
+  @media screen and (max-width: 1000px) {
+    
+    .card.col-xl-4.my-5.mx-auto {
+      width: 100% !important;
+  }
+  }
+
+  .header-nav , .navbar{
+    background-color: black;
+  }
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  #crd1,#crd2,#crd3,#crd4,#crd5,#crd6 {
+    height: 180px;
+
+  }
+  
+   #cd1,#cd2,#cd3,#cd4,#cd5 {
+    height: 180px;
+
+  }
+  

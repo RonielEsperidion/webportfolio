@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+</head>
+<body>  
+    <!-- navigation -->
+<div class="container-fluid header-nav ">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a href="index.html">
+            <img src="images/logo.jpg" class="img-fluid" alt="...">
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item active ">
+                    <a class="nav-link text-white " href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-white " href="about.html">About Us <span class="sr-only">(current)</span></a>
+                    </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-white" href="project.html">Project <span class="sr-only">(current)</span></a>
+                    </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-white" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!-- navigation end -->
+
+<!-- hero header -->
+<div class="hero-header d-flex align-items-center">
+    <div class="container overlay py-5 px-5 text-center ">
+      <h1 class="display-4 my-auto  text-white">Contact Me</h1>
+    </div>
+</div>
+<!-- hero header end -->
+<!-- Contact Me Start -->
+
+  <div class=" py-5 text-light d-flex flex-column text-center align-items-center min-vh-100">
+    <div class="bg-info col-sm-12 col-md-8 col-xl-4">
+      <form class="p-3">
+
+        <!-- Name Start -->
+        <div class="form-group">
+          <label for="formGroupExampleInput">Name</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name" />
+        </div>
+        <!-- Name End -->
+
+        <!-- Email Start -->
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="name@example.com" />
+        </div>
+
+        <!-- Email End -->
+
+        <!-- Contact Number Start -->
+        <div class="form-group">
+          <label for="formGroupExampleInput">Contact Number</label>
+          <input type="number" class="form-control" id="formGroupExampleInput" placeholder="+63 900 000 0000" />
+        </div>
+        <!-- Contact Number End -->
+
+        <!-- Concern Start -->
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Concern</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Quotation</option>
+            <option>Others 1</option>
+            <option>Others 2</option>
+            <option>Others 3</option>
+          </select>
+        </div>
+        <!-- Concern End -->
+
+        <!-- Message Start -->
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+        </div>
+        <!-- Message End -->
+
+        <!-- Button Start -->
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+          Submit Email
+        </button>
+      </form>
+    </div>
+  </div>
+  <!-- Contact Me End -->
+
+  <!-- Modal start -->
+  <div class="modal fade text-dark" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Thank you for contacting us!
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <span>Message Successfully Sent</span>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- cards end-->
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
